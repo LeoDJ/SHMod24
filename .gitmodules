@@ -1,0 +1,12 @@
+[submodule "lib_includes/kicad-ESP8266"]
+	path = lib_includes/kicad-ESP8266
+	url = https://github.com/jdunmire/kicad-ESP8266
+[submodule "lib_includes/mysensors.3dshapes"]
+	path = lib_includes/mysensors.3dshapes
+	url = https://github.com/mysensors-kicad/mysensors.3dshapes
+[submodule "lib_includes/mysensors_symbols"]
+	path = lib_includes/mysensors_symbols
+	url = https://github.com/mysensors-kicad/mysensors_symbols
+[submodule "lib_includes/LeoDJ-kicad"]
+	path = lib_includes/LeoDJ-kicad
+	url = https://github.com/LeoDJ/LeoDJ-kicad
