@@ -1,4 +1,4 @@
-update=04.05.2018 12:50:39
+update=04.05.2018 17:29:36
 version=1
 last_client=kicad
 [cvpcb]
@@ -49,8 +49,6 @@ LibName38=mysensors_symbols/mysensors_regulators
 LibName39=mysensors_symbols/mysensors_security
 LibName40=mysensors_symbols/mysensors_sensors
 LibName41=LeoDJ-kicad/LeoDJ-kicad
-[general]
-version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -70,3 +68,5 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
+[general]
+version=1
