@@ -1,0 +1,11 @@
+*.bak
+*.000
+*.bck
+*.kicad_pcb-bak
+*.tmp
+*-rescue.lib
+*-save.pro
+*-save.kicad_pcb
+*.net
+*.dsn
+*.ses
