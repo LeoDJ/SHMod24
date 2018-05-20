@@ -9,4 +9,5 @@
   (lib (name mysensors_radios)(type KiCad)(uri "$(KIPRJMOD)/lib_includes/mysensors_radios.pretty")(options "")(descr ""))
   (lib (name ESP8266)(type KiCad)(uri "$(KIPRJMOD)/lib_includes/kicad-ESP8266/ESP8266.pretty")(options "")(descr ""))
   (lib (name LeoDJ-kicad)(type KiCad)(uri "$(KIPRJMOD)/lib_includes/LeoDJ-kicad/LeoDJ-kicad.pretty")(options "")(descr ""))
+  (lib (name leodj-kicad)(type KiCad)(uri "$(KIPRJMOD)/lib_includes/leodj-kicad/leodj-kicad.pretty")(options "")(descr ""))
 )

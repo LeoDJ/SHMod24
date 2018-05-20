@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Leandro\Dropbox\Projekte\HomeAutomation\SHMod24\SHMod24.sch</source>
+    <date>19.05.2018 23:23:03</date>
+    <tool>Eeschema (5.0.0-rc2-dev-744-gdfcdfe91f)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SHMod24.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>NRF24L01</value>
+      <footprint>mysensors_radios:NRF24L01-SMD</footprint>
+      <libsource lib="SHMod24-rescue" part="NRF24L01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADE4C96</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>ArduinoProMini</value>
+      <footprint>mysensors_arduino:pro_mini</footprint>
+      <libsource lib="SHMod24-rescue" part="ArduinoProMini"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADE4F3A</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="SHMod24-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE0DF08</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="SHMod24-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE0DFF4</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="SHMod24-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE0E023</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="SHMod24-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE0E4F9</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>220k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="SHMod24-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE0E557</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>AP2112K-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <libsource lib="SHMod24-rescue" part="AP2204K-3.3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE5F532</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1µF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="SHMod24-rescue" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE5F7FC</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1µF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="SHMod24-rescue" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE5F915</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ESP-12</value>
+      <footprint>ESP8266:ESP-12E_SMD</footprint>
+      <libsource lib="SHMod24-rescue" part="ESP-12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE62D92</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>FS8205A</value>
+      <footprint>Package_SO:TSSOP-8_4.4x3mm_P0.65mm</footprint>
+      <libsource lib="SHMod24-rescue" part="FS8205A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE64FB7</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>DW01A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <libsource lib="SHMod24-rescue" part="DW01A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE65D88</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="SHMod24-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE65ED6</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="SHMod24-rescue" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE669C6</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="SHMod24-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE66B36</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TP4056</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <libsource lib="SHMod24-rescue" part="TP4056"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE66FF4</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1k2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="SHMod24-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE67071</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10µF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="SHMod24-rescue" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE67D85</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Source Select</value>
+      <footprint>LeoDJ-kicad:SOLDER-JUMPER_2-WAY</footprint>
+      <libsource lib="SHMod24-rescue" part="Jumper_NC_Dual"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE69DC3</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="SHMod24-rescue" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE6AFC7</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>LMR14010A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6_Handsoldering</footprint>
+      <libsource lib="SHMod24-rescue" part="LMR14010A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEB7C80</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>2.2µF 50V</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <libsource lib="SHMod24-rescue" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEB7F2F</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="SHMod24-rescue" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEB8110</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>22µH</value>
+      <footprint>LeoDJ-kicad:L_0630</footprint>
+      <libsource lib="SHMod24-rescue" part="L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEB8530</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>56k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="SHMod24-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEB86D0</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="SHMod24-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEB8764</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>22µF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <libsource lib="SHMod24-rescue" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEB918E</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100µF</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x5.8</footprint>
+      <libsource lib="SHMod24-rescue" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEB943A</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_Schottky 40V</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <libsource lib="SHMod24-rescue" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEBA4BE</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>12V</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <libsource lib="SHMod24-rescue" part="Screw_Terminal_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEC4DA4</tstamp>
+    </comp>
+    <comp ref="JP8">
+      <value>ESP NRF</value>
+      <footprint>LeoDJ-kicad:SOLDER-JUMPER_2-WAY</footprint>
+      <libsource lib="SHMod24-rescue" part="Jumper_NC_Dual"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEC6742</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x06_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical_SMD</footprint>
+      <libsource lib="SHMod24-rescue" part="Conn_02x06_Odd_Even"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEC96C4</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>ESP NRF</value>
+      <footprint>LeoDJ-kicad:SOLDER-JUMPER_2-WAY</footprint>
+      <libsource lib="SHMod24-rescue" part="Jumper_NC_Dual"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AECA1CD</tstamp>
+    </comp>
+    <comp ref="JP5">
+      <value>ESP NRF</value>
+      <footprint>LeoDJ-kicad:SOLDER-JUMPER_2-WAY</footprint>
+      <libsource lib="SHMod24-rescue" part="Jumper_NC_Dual"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AECA2AF</tstamp>
+    </comp>
+    <comp ref="JP6">
+      <value>ESP NRF</value>
+      <footprint>LeoDJ-kicad:SOLDER-JUMPER_2-WAY</footprint>
+      <libsource lib="SHMod24-rescue" part="Jumper_NC_Dual"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AECA44E</tstamp>
+    </comp>
+    <comp ref="JP7">
+      <value>ESP NRF</value>
+      <footprint>LeoDJ-kicad:SOLDER-JUMPER_2-WAY</footprint>
+      <libsource lib="SHMod24-rescue" part="Jumper_NC_Dual"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AECA457</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>Jumper_DeepSleep</value>
+      <footprint>LeoDJ-kicad:SOLDER-JUMPER_1-WAY</footprint>
+      <libsource lib="SHMod24-rescue" part="Jumper_NO_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AECB93E</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="SHMod24-rescue" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AECC5E3</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="SHMod24-rescue" part="AP2204K-3.3">
+      <footprints>
+        <fp>SOT?23?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2204K-3.3</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="SHMod24-rescue" part="ArduinoProMini">
+      <footprints>
+        <fp>pro_mini*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ArduinoProMini</field>
+        <field name="Footprint">mysensors_arduino:pro_mini_china</field>
+      </fields>
+      <pins>
+        <pin num="1" name="(PCINT17/TXD)PD1/1" type="BiDi"/>
+        <pin num="2" name="(PCINT16/RXD)PD0/0" type="BiDi"/>
+        <pin num="3" name="(PCINT14/~RESET~)PC6" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="(PCINT18/INT0)PD2/2" type="BiDi"/>
+        <pin num="6" name="(PCINT19/OC2B/INT1/PWM)PD3/3" type="BiDi"/>
+        <pin num="7" name="(PCINT20/XCK/T0)PD4/4" type="BiDi"/>
+        <pin num="8" name="(PCINT21/OC0B/T1/PWM)PD5/5" type="BiDi"/>
+        <pin num="9" name="(PCINT22/OC0A/AIN0/PWM)PD6/6" type="BiDi"/>
+        <pin num="10" name="(PCINT23/AIN1)PD7/7" type="BiDi"/>
+        <pin num="11" name="(PCINT0/CLKO/ICP1)PB0/8" type="BiDi"/>
+        <pin num="12" name="(PCINT1/OC1A/PWM)PB1/9" type="BiDi"/>
+        <pin num="13" name="(PCINT2/OC1B/~SS~/PWM)PB2/10" type="BiDi"/>
+        <pin num="14" name="(PCINT3/OC2A/MOSI/PWM)PB3/11" type="BiDi"/>
+        <pin num="15" name="(PCINT4/MISO)PB4/12" type="BiDi"/>
+        <pin num="16" name="(PCINT5/SCK)PB5/13" type="BiDi"/>
+        <pin num="17" name="(PCINT8/ADC0)PC0/14/A0" type="BiDi"/>
+        <pin num="18" name="(PCINT9/ADC1)PC1/15/A1" type="BiDi"/>
+        <pin num="19" name="(PCINT10/ADC2)PC2/16/A2" type="BiDi"/>
+        <pin num="20" name="(PCINT11/ADC3)PC3/17/A3" type="BiDi"/>
+        <pin num="21" name="VCC" type="power_in"/>
+        <pin num="22" name="(PCINT14/~RESET~)PC6" type="BiDi"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="RAW" type="power_in"/>
+        <pin num="25" name="(PCINT12/SDA/ADC4)PC4/18/A4" type="BiDi"/>
+        <pin num="26" name="(PCINT13/SCL/ADC5)PC5/19/A5" type="BiDi"/>
+        <pin num="27" name="ADC6/A6" type="input"/>
+        <pin num="28" name="ADC7/A7" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SHMod24-rescue" part="C">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SHMod24-rescue" part="CP">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SHMod24-rescue" part="Conn_02x06_Odd_Even">
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x06_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SHMod24-rescue" part="DW01A">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DW01A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OD" type="input"/>
+        <pin num="2" name="CS" type="input"/>
+        <pin num="3" name="OC" type="input"/>
+        <pin num="4" name="TD" type="input"/>
+        <pin num="5" name="VCC" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SHMod24-rescue" part="D_Schottky">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SHMod24-rescue" part="ESP-12">
+      <footprints>
+        <fp>ESP-07*</fp>
+        <fp>ESP-12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP-12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="REST" type="input"/>
+        <pin num="2" name="ADC" type="passive"/>
+        <pin num="3" name="CH_PD" type="input"/>
+        <pin num="4" name="GPIO16" type="BiDi"/>
+        <pin num="5" name="GPIO14" type="BiDi"/>
+        <pin num="6" name="GPIO12" type="BiDi"/>
+        <pin num="7" name="GPIO13" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="GPIO15" type="BiDi"/>
+        <pin num="11" name="GPIO2" type="BiDi"/>
+        <pin num="12" name="GPIO0" type="BiDi"/>
+        <pin num="13" name="GPIO4" type="BiDi"/>
+        <pin num="14" name="GPIO5" type="BiDi"/>
+        <pin num="15" name="RXD" type="input"/>
+        <pin num="16" name="TXD" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="SHMod24-rescue" part="FS8205A">
+      <footprints>
+        <fp>TSSOP?8*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">FS8205A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D12" type="input"/>
+        <pin num="2" name="S1" type="input"/>
+        <pin num="3" name="S1" type="input"/>
+        <pin num="4" name="G1" type="input"/>
+        <pin num="5" name="G2" type="input"/>
+        <pin num="6" name="S2" type="input"/>
+        <pin num="7" name="S2" type="input"/>
+        <pin num="8" name="D12" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SHMod24-rescue" part="Jumper_NC_Dual">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NC_Dual</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SHMod24-rescue" part="Jumper_NO_Small">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_NO_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SHMod24-rescue" part="L">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SHMod24-rescue" part="LMR14010A">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMR14010A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CB" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="SHDN" type="input"/>
+        <pin num="5" name="VIN" type="input"/>
+        <pin num="6" name="SW" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SHMod24-rescue" part="NRF24L01">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NRF24L01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="CE" type="input"/>
+        <pin num="4" name="CSN" type="input"/>
+        <pin num="5" name="SCK" type="input"/>
+        <pin num="6" name="MOSI" type="input"/>
+        <pin num="7" name="MISO" type="input"/>
+        <pin num="8" name="IRQ" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="SHMod24-rescue" part="R">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SHMod24-rescue" part="Screw_Terminal_01x02">
+      <footprints>
+        <fp>Connector*Terminal*Block*:*</fp>
+        <fp>TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SHMod24-rescue" part="TP4056">
+      <footprints>
+        <fp>SOP?8*</fp>
+        <fp>SOIC?8*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TP4056</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEMP" type="input"/>
+        <pin num="2" name="PROG" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="VCC" type="input"/>
+        <pin num="5" name="BAT" type="input"/>
+        <pin num="6" name="STDBY" type="input"/>
+        <pin num="7" name="CHRG" type="input"/>
+        <pin num="8" name="CE" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="SHMod24-rescue">
+      <uri>C:\Users\Leandro\Dropbox\Projekte\HomeAutomation\SHMod24/SHMod24-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="U2" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="Q1" pin="6"/>
+      <node ref="U6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="IC1" pin="23"/>
+      <node ref="R10" pin="2"/>
+      <node ref="IC1" pin="29"/>
+      <node ref="J5" pin="1"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U4" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="U3" pin="1"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U4" pin="4"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U4" pin="8"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="3" name="Net-(R10-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="4" name="GPIO15">
+      <node ref="U1" pin="10"/>
+      <node ref="JP8" pin="1"/>
+      <node ref="JP8" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="5" name="N24_CS">
+      <node ref="IC1" pin="11"/>
+      <node ref="U2" pin="4"/>
+      <node ref="JP8" pin="3"/>
+    </net>
+    <net code="6" name="+12V">
+      <node ref="J5" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="7" name="/SW">
+      <node ref="D1" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="8" name="-BATT">
+      <node ref="C3" pin="2"/>
+      <node ref="U5" pin="6"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(R6-Pad1)">
+      <node ref="U4" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="10" name="Net-(C3-Pad1)">
+      <node ref="U5" pin="5"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="11" name="Net-(R8-Pad2)">
+      <node ref="U5" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="12" name="Net-(Q1-Pad4)">
+      <node ref="Q1" pin="4"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="13" name="Net-(C6-Pad1)">
+      <node ref="U6" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="14" name="GPIO16">
+      <node ref="JP7" pin="2"/>
+      <node ref="JP3" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="JP7" pin="1"/>
+    </net>
+    <net code="15" name="Net-(JP3-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="JP3" pin="1"/>
+    </net>
+    <net code="16" name="N24_CE">
+      <node ref="IC1" pin="10"/>
+      <node ref="U2" pin="3"/>
+      <node ref="JP7" pin="3"/>
+    </net>
+    <net code="17" name="P08">
+      <node ref="J1" pin="10"/>
+    </net>
+    <net code="18" name="P01">
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="19" name="P11">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="20" name="P10">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="21" name="P09">
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="22" name="P07">
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="23" name="P06">
+      <node ref="J1" pin="11"/>
+    </net>
+    <net code="24" name="P05">
+      <node ref="J1" pin="9"/>
+    </net>
+    <net code="25" name="P04">
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="26" name="P03">
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="27" name="P02">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="28" name="GPIO13">
+      <node ref="U1" pin="7"/>
+      <node ref="JP4" pin="1"/>
+      <node ref="JP4" pin="2"/>
+    </net>
+    <net code="29" name="GPIO14">
+      <node ref="JP6" pin="2"/>
+      <node ref="JP6" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="30" name="SCK">
+      <node ref="U2" pin="5"/>
+      <node ref="IC1" pin="16"/>
+      <node ref="JP6" pin="3"/>
+    </net>
+    <net code="31" name="GPIO12">
+      <node ref="U1" pin="6"/>
+      <node ref="JP5" pin="1"/>
+      <node ref="JP5" pin="2"/>
+    </net>
+    <net code="32" name="MISO">
+      <node ref="JP5" pin="3"/>
+      <node ref="U2" pin="7"/>
+      <node ref="IC1" pin="15"/>
+    </net>
+    <net code="33" name="MOSI">
+      <node ref="U2" pin="6"/>
+      <node ref="IC1" pin="14"/>
+      <node ref="JP4" pin="3"/>
+    </net>
+    <net code="34" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="35" name="A0">
+      <node ref="IC1" pin="17"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="36" name="Net-(C1-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="37" name="+3V3">
+      <node ref="R3" pin="2"/>
+      <node ref="IC1" pin="21"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="38" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="39" name="ADC">
+      <node ref="U1" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="40" name="GPIO2">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="41" name="GPIO0">
+      <node ref="U1" pin="12"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="42" name="Net-(R1-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="43" name="SCL">
+      <node ref="IC1" pin="26"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="44" name="SDA">
+      <node ref="U1" pin="13"/>
+      <node ref="IC1" pin="25"/>
+    </net>
+    <net code="45" name="Net-(IC1-Pad28)">
+      <node ref="IC1" pin="28"/>
+    </net>
+    <net code="46" name="Net-(IC1-Pad27)">
+      <node ref="IC1" pin="27"/>
+    </net>
+    <net code="47" name="Net-(IC1-Pad24)">
+      <node ref="IC1" pin="24"/>
+    </net>
+    <net code="48" name="Net-(IC1-Pad22)">
+      <node ref="IC1" pin="22"/>
+    </net>
+    <net code="49" name="Net-(IC1-Pad20)">
+      <node ref="IC1" pin="20"/>
+    </net>
+    <net code="50" name="RX">
+      <node ref="U1" pin="15"/>
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="51" name="Net-(IC1-Pad19)">
+      <node ref="IC1" pin="19"/>
+    </net>
+    <net code="52" name="Net-(IC1-Pad18)">
+      <node ref="IC1" pin="18"/>
+    </net>
+    <net code="53" name="Net-(IC1-Pad13)">
+      <node ref="IC1" pin="13"/>
+    </net>
+    <net code="54" name="Net-(IC1-Pad12)">
+      <node ref="IC1" pin="12"/>
+    </net>
+    <net code="55" name="TX">
+      <node ref="IC1" pin="1"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="56" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="57" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="58" name="Net-(IC1-Pad9)">
+      <node ref="IC1" pin="9"/>
+    </net>
+    <net code="59" name="Net-(IC1-Pad8)">
+      <node ref="IC1" pin="8"/>
+    </net>
+    <net code="60" name="Net-(IC1-Pad7)">
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="61" name="Net-(IC1-Pad6)">
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="62" name="Net-(IC1-Pad5)">
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="63" name="Net-(IC1-Pad3)">
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="64" name="Net-(Q1-Pad5)">
+      <node ref="U5" pin="3"/>
+      <node ref="Q1" pin="5"/>
+    </net>
+    <net code="65" name="+BATT">
+      <node ref="U4" pin="5"/>
+      <node ref="C4" pin="1"/>
+      <node ref="JP1" pin="3"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="66" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="67" name="Net-(Q1-Pad8)">
+      <node ref="Q1" pin="8"/>
+    </net>
+    <net code="68" name="Net-(Q1-Pad7)">
+      <node ref="Q1" pin="7"/>
+    </net>
+    <net code="69" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="70" name="Net-(U4-Pad7)">
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="71" name="Net-(U4-Pad6)">
+      <node ref="U4" pin="6"/>
+    </net>
+  </nets>
+</export>

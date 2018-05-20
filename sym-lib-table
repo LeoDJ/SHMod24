@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name SHMod24-rescue)(type Legacy)(uri ${KIPRJMOD}/SHMod24-rescue.lib)(options "")(descr ""))
+)
