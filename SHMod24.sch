@@ -906,33 +906,14 @@ F 3 "" H 1050 3300 50  0001 C CNN
 $EndComp
 Text Label 5000 6600 0    20   ~ 0
 SW
-$Comp
-L SHMod24-rescue:Jumper_NC_Dual JP8
-U 1 1 5AEC6742
-P 3950 2950
-F 0 "JP8" H 4000 2850 50  0000 L CNN
-F 1 "ESP NRF" H 3950 3050 50  0000 C BNN
-F 2 "LeoDJ-kicad:SOLDER-JUMPER_2-WAY" H 3950 2950 50  0001 C CNN
-F 3 "" H 3950 2950 50  0001 C CNN
-	1    3950 2950
-	1    0    0    -1  
-$EndComp
 Text GLabel 4100 2300 2    60   BiDi ~ 0
 GPIO15
 Wire Wire Line
 	4100 2300 3850 2300
 Text GLabel 2900 3350 0    60   BiDi ~ 0
 GPIO15
-Wire Wire Line
-	3950 3050 3700 3050
-Wire Wire Line
-	3700 3050 3700 2950
-Text GLabel 2900 3350 2    60   BiDi ~ 0
+Text GLabel 2950 3350 2    60   BiDi ~ 0
 N24_CS
-Wire Wire Line
-	3900 3150 3950 3150
-Wire Wire Line
-	3950 3150 3950 3050
 Text GLabel 2400 4950 3    47   BiDi ~ 0
 P10
 Text GLabel 2100 4450 1    47   BiDi ~ 0
@@ -947,74 +928,6 @@ Text GLabel 2300 4450 1    47   BiDi ~ 0
 P06
 Text GLabel 2300 4950 3    47   BiDi ~ 0
 P07
-$Comp
-L SHMod24-rescue:Jumper_NC_Dual JP4
-U 1 1 5AECA1CD
-P 3950 3400
-F 0 "JP4" H 4000 3300 50  0000 L CNN
-F 1 "ESP NRF" H 3950 3500 50  0000 C BNN
-F 2 "LeoDJ-kicad:SOLDER-JUMPER_2-WAY" H 3950 3400 50  0001 C CNN
-F 3 "" H 3950 3400 50  0001 C CNN
-	1    3950 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 3500 3700 3500
-Wire Wire Line
-	3700 3500 3700 3400
-Wire Wire Line
-	3950 3600 3950 3500
-$Comp
-L SHMod24-rescue:Jumper_NC_Dual JP5
-U 1 1 5AECA2AF
-P 3950 3900
-F 0 "JP5" H 4000 3800 50  0000 L CNN
-F 1 "ESP NRF" H 3950 4000 50  0000 C BNN
-F 2 "LeoDJ-kicad:SOLDER-JUMPER_2-WAY" H 3950 3900 50  0001 C CNN
-F 3 "" H 3950 3900 50  0001 C CNN
-	1    3950 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 4000 3700 4000
-Wire Wire Line
-	3700 4000 3700 3900
-Wire Wire Line
-	3950 4100 3950 4000
-$Comp
-L SHMod24-rescue:Jumper_NC_Dual JP6
-U 1 1 5AECA44E
-P 3950 4400
-F 0 "JP6" H 4000 4300 50  0000 L CNN
-F 1 "ESP NRF" H 3950 4500 50  0000 C BNN
-F 2 "LeoDJ-kicad:SOLDER-JUMPER_2-WAY" H 3950 4400 50  0001 C CNN
-F 3 "" H 3950 4400 50  0001 C CNN
-	1    3950 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 4500 3700 4500
-Wire Wire Line
-	3700 4500 3700 4400
-Wire Wire Line
-	3950 4600 3950 4500
-$Comp
-L SHMod24-rescue:Jumper_NC_Dual JP7
-U 1 1 5AECA457
-P 3950 4900
-F 0 "JP7" H 4000 4800 50  0000 L CNN
-F 1 "ESP NRF" H 3950 5000 50  0000 C BNN
-F 2 "LeoDJ-kicad:SOLDER-JUMPER_2-WAY" H 3950 4900 50  0001 C CNN
-F 3 "" H 3950 4900 50  0001 C CNN
-	1    3950 4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 5000 3700 5000
-Wire Wire Line
-	3700 5000 3700 4900
-Wire Wire Line
-	3950 5100 3950 5000
 Text GLabel 2050 2300 0    60   BiDi ~ 0
 GPIO13
 Text GLabel 2050 2200 0    60   BiDi ~ 0
@@ -1025,8 +938,6 @@ Text GLabel 2050 2000 0    60   BiDi ~ 0
 GPIO16
 Text GLabel 2900 3450 0    60   BiDi ~ 0
 GPIO13
-Wire Wire Line
-	3950 3600 3900 3600
 Text GLabel 2900 3550 0    60   BiDi ~ 0
 GPIO12
 Text GLabel 2900 3650 0    60   BiDi ~ 0
@@ -1086,22 +997,16 @@ Wire Wire Line
 	650  2500 650  2550
 Wire Wire Line
 	1050 2500 1100 2500
-Text GLabel 2900 3450 2    60   BiDi ~ 0
+Text GLabel 2950 3450 2    60   BiDi ~ 0
 MOSI
-Text GLabel 2900 3550 2    60   BiDi ~ 0
+Text GLabel 2950 3550 2    60   BiDi ~ 0
 MISO
-Text GLabel 2900 3650 2    60   BiDi ~ 0
+Text GLabel 2950 3650 2    60   BiDi ~ 0
 SCK
-Text GLabel 2900 3250 2    60   BiDi ~ 0
+Text GLabel 2950 3250 2    60   BiDi ~ 0
 N24_CE
 Text GLabel 2900 3250 0    60   BiDi ~ 0
 GPIO16
-Wire Wire Line
-	3950 4100 3900 4100
-Wire Wire Line
-	3950 4600 3900 4600
-Wire Wire Line
-	3900 5100 3950 5100
 Wire Wire Line
 	5200 3000 5200 3200
 Wire Wire Line
@@ -1170,7 +1075,7 @@ F 3 "" H 9650 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+BATT #PWR0103
+L SHMod24-rescue:+BATT-power #PWR0103
 U 1 1 5B02FB2C
 P 1700 3200
 F 0 "#PWR0103" H 1700 3050 50  0001 C CNN
@@ -1181,7 +1086,7 @@ F 3 "" H 1700 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:-BATT #PWR0104
+L SHMod24-rescue:-BATT-power #PWR0104
 U 1 1 5B02FC02
 P 1700 3300
 F 0 "#PWR0104" H 1700 3150 50  0001 C CNN
@@ -1192,7 +1097,7 @@ F 3 "" H 1700 3300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J2
+L SHMod24-rescue:Conn_01x01-Connector_Generic J2
 U 1 1 5B0307B4
 P 1500 3200
 F 0 "J2" H 1600 3200 50  0000 C CNN
@@ -1203,7 +1108,7 @@ F 3 "~" H 1500 3200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J3
+L SHMod24-rescue:Conn_01x01-Connector_Generic J3
 U 1 1 5B030925
 P 1500 3300
 F 0 "J3" H 1600 3300 50  0000 C CNN
@@ -1271,7 +1176,7 @@ Wire Wire Line
 Wire Wire Line
 	10650 3000 10550 3000
 $Comp
-L power:+3V3 #PWR0107
+L SHMod24-rescue:+3V3-power #PWR0107
 U 1 1 5B04FE9B
 P 4000 900
 F 0 "#PWR0107" H 4000 750 50  0001 C CNN
@@ -1282,7 +1187,7 @@ F 3 "" H 4000 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R12
+L SHMod24-rescue:R-Device R12
 U 1 1 5B05001C
 P 4000 1050
 F 0 "R12" H 4070 1096 50  0000 L CNN
@@ -1293,7 +1198,7 @@ F 3 "~" H 4000 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R13
+L SHMod24-rescue:R-Device R13
 U 1 1 5B050098
 P 4250 1050
 F 0 "R13" H 4320 1096 50  0000 L CNN
@@ -1304,7 +1209,7 @@ F 3 "~" H 4250 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0108
+L SHMod24-rescue:+3V3-power #PWR0108
 U 1 1 5B066B95
 P 4250 900
 F 0 "#PWR0108" H 4250 750 50  0001 C CNN
@@ -1319,7 +1224,7 @@ SDA
 Text GLabel 4250 1200 3    60   BiDi ~ 0
 SCL
 $Comp
-L power:VCC #PWR0109
+L SHMod24-rescue:VCC-power #PWR0109
 U 1 1 5B0778C1
 P 5200 6700
 F 0 "#PWR0109" H 5200 6550 50  0001 C CNN
@@ -1330,7 +1235,7 @@ F 3 "" H 5200 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR0110
+L SHMod24-rescue:VCC-power #PWR0110
 U 1 1 5B077B87
 P 1050 3200
 F 0 "#PWR0110" H 1050 3050 50  0001 C CNN
@@ -1341,7 +1246,7 @@ F 3 "" H 1050 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R14
+L SHMod24-rescue:R-Device R14
 U 1 1 5B07F902
 P 2150 6800
 F 0 "R14" V 1943 6800 50  0000 C CNN
@@ -1352,7 +1257,7 @@ F 3 "~" H 2150 6800 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:LED D2
+L SHMod24-rescue:LED-Device D2
 U 1 1 5B07F9BB
 P 2300 6950
 F 0 "D2" H 2292 6695 50  0000 C CNN
@@ -1367,7 +1272,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 7100 2300 7250
 $Comp
-L power:GND #PWR0111
+L SHMod24-rescue:GND-power #PWR0111
 U 1 1 5B043100
 P 1100 4950
 F 0 "#PWR0111" H 1100 4700 50  0001 C CNN
@@ -1378,7 +1283,7 @@ F 3 "" H 1100 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0112
+L SHMod24-rescue:GND-power #PWR0112
 U 1 1 5B043170
 P 950 4250
 F 0 "#PWR0112" H 950 4000 50  0001 C CNN
@@ -1393,7 +1298,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 4250 1100 4450
 $Comp
-L power:+3V3 #PWR0113
+L SHMod24-rescue:+3V3-power #PWR0113
 U 1 1 5B0690C4
 P 1300 4450
 F 0 "#PWR0113" H 1300 4300 50  0001 C CNN
@@ -1404,7 +1309,7 @@ F 3 "" H 1300 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0114
+L SHMod24-rescue:+3V3-power #PWR0114
 U 1 1 5B069134
 P 1350 5400
 F 0 "#PWR0114" H 1350 5250 50  0001 C CNN
@@ -1415,7 +1320,7 @@ F 3 "" H 1350 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0115
+L SHMod24-rescue:+5V-power #PWR0115
 U 1 1 5B0693A1
 P 1150 5400
 F 0 "#PWR0115" H 1150 5250 50  0001 C CNN
@@ -1426,7 +1331,7 @@ F 3 "" H 1150 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR0116
+L SHMod24-rescue:VCC-power #PWR0116
 U 1 1 5B06944B
 P 1200 4350
 F 0 "#PWR0116" H 1200 4200 50  0001 C CNN
@@ -1480,7 +1385,7 @@ Text GLabel 7150 2500 2    60   BiDi ~ 0
 A2
 Text GLabel 7150 2600 2    60   BiDi ~ 0
 A3
-Text GLabel 3200 4600 2    47   BiDi ~ 0
+Text GLabel 3250 4600 2    47   BiDi ~ 0
 CS
 Text GLabel 1700 4950 3    47   BiDi ~ 0
 CS
@@ -1498,18 +1403,18 @@ Text GLabel 7150 1700 2    60   BiDi ~ 0
 P10
 Text GLabel 7150 900  2    60   BiDi ~ 0
 P02
-Text GLabel 3200 4500 2    47   BiDi ~ 0
+Text GLabel 3250 4500 2    47   BiDi ~ 0
 P07
-Text GLabel 2900 3800 2    47   BiDi ~ 0
+Text GLabel 2950 3800 2    47   BiDi ~ 0
 P02
-Text GLabel 2900 3900 2    47   BiDi ~ 0
+Text GLabel 2950 3900 2    47   BiDi ~ 0
 P03
 Text GLabel 2900 3800 0    47   BiDi ~ 0
 GPIO0
 Text GLabel 2900 3900 0    47   BiDi ~ 0
 GPIO2
 $Comp
-L power:GND #PWR0117
+L SHMod24-rescue:GND-power #PWR0117
 U 1 1 5B199E3F
 P 2000 4950
 F 0 "#PWR0117" H 2000 4700 50  0001 C CNN
@@ -1520,7 +1425,7 @@ F 3 "" H 2000 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0118
+L SHMod24-rescue:GND-power #PWR0118
 U 1 1 5B199EA8
 P 1900 4100
 F 0 "#PWR0118" H 1900 3850 50  0001 C CNN
@@ -1535,7 +1440,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 4100 2000 4450
 $Comp
-L Connector_Generic:Conn_02x14_Odd_Even J1
+L SHMod24-rescue:Conn_02x14_Odd_Even-Connector_Generic J1
 U 1 1 5B1A025A
 P 1700 4750
 F 0 "J1" V 1796 3962 50  0000 R CNN
@@ -1545,4 +1450,22 @@ F 3 "~" H 1700 4750 50  0001 C CNN
 	1    1700 4750
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	2950 3250 2900 3250
+Wire Wire Line
+	2950 3350 2900 3350
+Wire Wire Line
+	2950 3450 2900 3450
+Wire Wire Line
+	2950 3550 2900 3550
+Wire Wire Line
+	2950 3650 2900 3650
+Wire Wire Line
+	2950 3800 2900 3800
+Wire Wire Line
+	2950 3900 2900 3900
+Wire Wire Line
+	3250 4500 3200 4500
+Wire Wire Line
+	3250 4600 3200 4600
 $EndSCHEMATC
