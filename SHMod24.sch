@@ -36,11 +36,11 @@ F 3 "" H 6150 1800 60  0000 C CNN
 	1    6150 1800
 	1    0    0    -1  
 $EndComp
-Text GLabel 7300 2000 2    60   BiDi ~ 0
+Text GLabel 7150 2000 2    60   BiDi ~ 0
 MISO
-Text GLabel 7300 1900 2    60   BiDi ~ 0
+Text GLabel 7150 1900 2    60   BiDi ~ 0
 MOSI
-Text GLabel 7300 2100 2    60   BiDi ~ 0
+Text GLabel 7150 2100 2    60   BiDi ~ 0
 SCK
 Text GLabel 9550 1250 0    60   BiDi ~ 0
 MISO
@@ -70,9 +70,9 @@ F 3 "" H 10150 800 50  0001 C CNN
 	1    10150 800 
 	1    0    0    -1  
 $EndComp
-Text GLabel 7300 2700 2    60   BiDi ~ 0
+Text GLabel 7150 2700 2    60   BiDi ~ 0
 SDA
-Text GLabel 7300 2800 2    60   BiDi ~ 0
+Text GLabel 7150 2800 2    60   BiDi ~ 0
 SCL
 $Comp
 L SHMod24-rescue:GND #PWR03
@@ -231,11 +231,11 @@ Text GLabel 10650 1250 2    60   BiDi ~ 0
 N24_CS
 Text GLabel 10650 1450 2    60   BiDi ~ 0
 N24_CE
-Text GLabel 7350 1500 2    60   BiDi ~ 0
+Text GLabel 7150 1500 2    60   BiDi ~ 0
 N24_CS
-Text GLabel 7350 1400 2    60   BiDi ~ 0
+Text GLabel 7150 1400 2    60   BiDi ~ 0
 N24_CE
-Text GLabel 7300 2300 2    60   BiDi ~ 0
+Text GLabel 7150 2300 2    60   BiDi ~ 0
 A0
 $Comp
 L SHMod24-rescue:+3.3V #PWR08
@@ -256,9 +256,9 @@ Text GLabel 4100 1800 2    60   BiDi ~ 0
 RX
 Text GLabel 4100 1700 2    60   BiDi ~ 0
 TX
-Text GLabel 7400 700  2    60   BiDi ~ 0
+Text GLabel 7150 700  2    60   BiDi ~ 0
 RX
-Text GLabel 7400 800  2    60   BiDi ~ 0
+Text GLabel 7150 800  2    60   BiDi ~ 0
 TX
 $Comp
 L SHMod24-rescue:ESP-12 U1
@@ -514,12 +514,6 @@ F 3 "" H 1550 6800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7300 1900 7150 1900
-Wire Wire Line
-	7300 2000 7150 2000
-Wire Wire Line
-	7300 2100 7150 2100
-Wire Wire Line
 	9750 1250 9550 1250
 Wire Wire Line
 	9750 1350 9550 1350
@@ -529,10 +523,6 @@ Wire Wire Line
 	10150 1000 10150 800 
 Wire Wire Line
 	10150 1850 10150 1700
-Wire Wire Line
-	7300 2700 7150 2700
-Wire Wire Line
-	7300 2800 7150 2800
 Wire Wire Line
 	5200 3000 5250 3000
 Wire Wire Line
@@ -590,12 +580,6 @@ Wire Wire Line
 Wire Wire Line
 	10650 1450 10550 1450
 Wire Wire Line
-	7350 1400 7150 1400
-Wire Wire Line
-	7350 1500 7150 1500
-Wire Wire Line
-	7300 2300 7150 2300
-Wire Wire Line
 	5250 700  5050 700 
 Wire Wire Line
 	4100 2000 3850 2000
@@ -605,10 +589,6 @@ Wire Wire Line
 	4100 1700 3850 1700
 Wire Wire Line
 	4100 1800 3850 1800
-Wire Wire Line
-	7400 700  7150 700 
-Wire Wire Line
-	7400 800  7150 800 
 Wire Wire Line
 	650  1650 650  1900
 Wire Wire Line
@@ -905,23 +885,23 @@ $EndComp
 $Comp
 L SHMod24-rescue:Screw_Terminal_01x02 J5
 U 1 1 5AEC4DA4
-P 1000 4050
-F 0 "J5" H 1000 4150 50  0000 C CNN
-F 1 "12V" H 1000 3850 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 1000 4050 50  0001 C CNN
-F 3 "" H 1000 4050 50  0001 C CNN
-	1    1000 4050
+P 850 3300
+F 0 "J5" H 850 3400 50  0000 C CNN
+F 1 "12V" H 850 3100 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal" H 850 3300 50  0001 C CNN
+F 3 "" H 850 3300 50  0001 C CNN
+	1    850  3300
 	-1   0    0    1   
 $EndComp
 $Comp
 L SHMod24-rescue:GND #PWR029
 U 1 1 5AEC4FAE
-P 1200 4050
-F 0 "#PWR029" H 1200 3800 50  0001 C CNN
-F 1 "GND" H 1200 3900 50  0000 C CNN
-F 2 "" H 1200 4050 50  0001 C CNN
-F 3 "" H 1200 4050 50  0001 C CNN
-	1    1200 4050
+P 1050 3300
+F 0 "#PWR029" H 1050 3050 50  0001 C CNN
+F 1 "GND" H 1050 3150 50  0000 C CNN
+F 2 "" H 1050 3300 50  0001 C CNN
+F 3 "" H 1050 3300 50  0001 C CNN
+	1    1050 3300
 	1    0    0    -1  
 $EndComp
 Text Label 5000 6600 0    20   ~ 0
@@ -941,73 +921,32 @@ Text GLabel 4100 2300 2    60   BiDi ~ 0
 GPIO15
 Wire Wire Line
 	4100 2300 3850 2300
-Text GLabel 3900 3150 0    60   BiDi ~ 0
+Text GLabel 2900 3350 0    60   BiDi ~ 0
 GPIO15
 Wire Wire Line
 	3950 3050 3700 3050
 Wire Wire Line
 	3700 3050 3700 2950
-Text GLabel 4200 2950 2    60   BiDi ~ 0
+Text GLabel 2900 3350 2    60   BiDi ~ 0
 N24_CS
 Wire Wire Line
 	3900 3150 3950 3150
 Wire Wire Line
 	3950 3150 3950 3050
-Text GLabel 1150 4650 0    47   BiDi ~ 0
-P01
-Wire Wire Line
-	1150 4650 1300 4650
-Text GLabel 1150 4750 0    47   BiDi ~ 0
-P02
-Text GLabel 1150 4850 0    47   BiDi ~ 0
-P03
-Text GLabel 1150 4950 0    47   BiDi ~ 0
-P04
-Text GLabel 1150 5050 0    47   BiDi ~ 0
-P05
-Text GLabel 1150 5150 0    47   BiDi ~ 0
-P06
-Text GLabel 1950 5150 2    47   BiDi ~ 0
-P07
-Text GLabel 1950 5050 2    47   BiDi ~ 0
-P08
-Text GLabel 1950 4950 2    47   BiDi ~ 0
-P09
-Text GLabel 1950 4850 2    47   BiDi ~ 0
+Text GLabel 2400 4950 3    47   BiDi ~ 0
 P10
-Text GLabel 1950 4750 2    47   BiDi ~ 0
-P11
-Wire Wire Line
-	1150 4750 1300 4750
-Wire Wire Line
-	1150 4850 1300 4850
-Wire Wire Line
-	1150 4950 1300 4950
-Wire Wire Line
-	1150 5050 1300 5050
-Wire Wire Line
-	1150 5150 1300 5150
-Wire Wire Line
-	1950 5150 1800 5150
-Wire Wire Line
-	1950 5050 1800 5050
-Wire Wire Line
-	1950 4950 1800 4950
-Wire Wire Line
-	1950 4850 1800 4850
-Wire Wire Line
-	1950 4750 1800 4750
-$Comp
-L SHMod24-rescue:Conn_02x06_Odd_Even J1
-U 1 1 5AEC96C4
-P 1500 4850
-F 0 "J1" H 1550 5150 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 1550 4450 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical_SMD" H 1500 4850 50  0001 C CNN
-F 3 "" H 1500 4850 50  0001 C CNN
-	1    1500 4850
-	1    0    0    -1  
-$EndComp
+Text GLabel 2100 4450 1    47   BiDi ~ 0
+P02
+Text GLabel 2100 4950 3    47   BiDi ~ 0
+P03
+Text GLabel 2200 4450 1    47   BiDi ~ 0
+P04
+Text GLabel 2200 4950 3    47   BiDi ~ 0
+P05
+Text GLabel 2300 4450 1    47   BiDi ~ 0
+P06
+Text GLabel 2300 4950 3    47   BiDi ~ 0
+P07
 $Comp
 L SHMod24-rescue:Jumper_NC_Dual JP4
 U 1 1 5AECA1CD
@@ -1084,13 +1023,13 @@ Text GLabel 2050 2100 0    60   BiDi ~ 0
 GPIO14
 Text GLabel 2050 2000 0    60   BiDi ~ 0
 GPIO16
-Text GLabel 3900 3600 0    60   BiDi ~ 0
+Text GLabel 2900 3450 0    60   BiDi ~ 0
 GPIO13
 Wire Wire Line
 	3950 3600 3900 3600
-Text GLabel 3900 4100 0    60   BiDi ~ 0
+Text GLabel 2900 3550 0    60   BiDi ~ 0
 GPIO12
-Text GLabel 3900 4600 0    60   BiDi ~ 0
+Text GLabel 2900 3650 0    60   BiDi ~ 0
 GPIO14
 Text GLabel 2050 1800 0    60   BiDi ~ 0
 ADC
@@ -1147,15 +1086,15 @@ Wire Wire Line
 	650  2500 650  2550
 Wire Wire Line
 	1050 2500 1100 2500
-Text GLabel 4200 3400 2    60   BiDi ~ 0
+Text GLabel 2900 3450 2    60   BiDi ~ 0
 MOSI
-Text GLabel 4200 3900 2    60   BiDi ~ 0
+Text GLabel 2900 3550 2    60   BiDi ~ 0
 MISO
-Text GLabel 4200 4400 2    60   BiDi ~ 0
+Text GLabel 2900 3650 2    60   BiDi ~ 0
 SCK
-Text GLabel 4200 4900 2    60   BiDi ~ 0
+Text GLabel 2900 3250 2    60   BiDi ~ 0
 N24_CE
-Text GLabel 3900 5100 0    60   BiDi ~ 0
+Text GLabel 2900 3250 0    60   BiDi ~ 0
 GPIO16
 Wire Wire Line
 	3950 4100 3900 4100
@@ -1233,45 +1172,45 @@ $EndComp
 $Comp
 L power:+BATT #PWR0103
 U 1 1 5B02FB2C
-P 950 5850
-F 0 "#PWR0103" H 950 5700 50  0001 C CNN
-F 1 "+BATT" H 1100 5900 50  0000 C CNN
-F 2 "" H 950 5850 50  0001 C CNN
-F 3 "" H 950 5850 50  0001 C CNN
-	1    950  5850
+P 1700 3200
+F 0 "#PWR0103" H 1700 3050 50  0001 C CNN
+F 1 "+BATT" H 1850 3250 50  0000 C CNN
+F 2 "" H 1700 3200 50  0001 C CNN
+F 3 "" H 1700 3200 50  0001 C CNN
+	1    1700 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:-BATT #PWR0104
 U 1 1 5B02FC02
-P 950 5950
-F 0 "#PWR0104" H 950 5800 50  0001 C CNN
-F 1 "-BATT" H 800 6000 50  0000 C CNN
-F 2 "" H 950 5950 50  0001 C CNN
-F 3 "" H 950 5950 50  0001 C CNN
-	1    950  5950
+P 1700 3300
+F 0 "#PWR0104" H 1700 3150 50  0001 C CNN
+F 1 "-BATT" H 1550 3350 50  0000 C CNN
+F 2 "" H 1700 3300 50  0001 C CNN
+F 3 "" H 1700 3300 50  0001 C CNN
+	1    1700 3300
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J2
 U 1 1 5B0307B4
-P 750 5850
-F 0 "J2" H 850 5850 50  0000 C CNN
-F 1 "Conn_01x01" H 750 5700 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 750 5850 50  0001 C CNN
-F 3 "~" H 750 5850 50  0001 C CNN
-	1    750  5850
+P 1500 3200
+F 0 "J2" H 1600 3200 50  0000 C CNN
+F 1 "Conn_01x01" H 1500 3050 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 1500 3200 50  0001 C CNN
+F 3 "~" H 1500 3200 50  0001 C CNN
+	1    1500 3200
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J3
 U 1 1 5B030925
-P 750 5950
-F 0 "J3" H 850 5950 50  0000 C CNN
-F 1 "Conn_01x01" H 750 6100 50  0000 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 750 5950 50  0001 C CNN
-F 3 "~" H 750 5950 50  0001 C CNN
-	1    750  5950
+P 1500 3300
+F 0 "J3" H 1600 3300 50  0000 C CNN
+F 1 "Conn_01x01" H 1500 3450 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x01_Drill0.8mm" H 1500 3300 50  0001 C CNN
+F 3 "~" H 1500 3300 50  0001 C CNN
+	1    1500 3300
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1393,12 +1332,12 @@ $EndComp
 $Comp
 L power:VCC #PWR0110
 U 1 1 5B077B87
-P 1200 3950
-F 0 "#PWR0110" H 1200 3800 50  0001 C CNN
-F 1 "VCC" H 1217 4123 50  0000 C CNN
-F 2 "" H 1200 3950 50  0001 C CNN
-F 3 "" H 1200 3950 50  0001 C CNN
-	1    1200 3950
+P 1050 3200
+F 0 "#PWR0110" H 1050 3050 50  0001 C CNN
+F 1 "VCC" H 1067 3373 50  0000 C CNN
+F 2 "" H 1050 3200 50  0001 C CNN
+F 3 "" H 1050 3200 50  0001 C CNN
+	1    1050 3200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1427,4 +1366,183 @@ Wire Wire Line
 	2300 7250 2000 7250
 Wire Wire Line
 	2300 7100 2300 7250
+$Comp
+L power:GND #PWR?
+U 1 1 5B043100
+P 1100 4950
+F 0 "#PWR?" H 1100 4700 50  0001 C CNN
+F 1 "GND" H 1105 4777 50  0000 C CNN
+F 2 "" H 1100 4950 50  0001 C CNN
+F 3 "" H 1100 4950 50  0001 C CNN
+	1    1100 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B043170
+P 950 4250
+F 0 "#PWR?" H 950 4000 50  0001 C CNN
+F 1 "GND" H 955 4077 50  0000 C CNN
+F 2 "" H 950 4250 50  0001 C CNN
+F 3 "" H 950 4250 50  0001 C CNN
+	1    950  4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  4250 1100 4250
+Wire Wire Line
+	1100 4250 1100 4450
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5B0690C4
+P 1300 4450
+F 0 "#PWR?" H 1300 4300 50  0001 C CNN
+F 1 "+3V3" H 1315 4623 50  0000 C CNN
+F 2 "" H 1300 4450 50  0001 C CNN
+F 3 "" H 1300 4450 50  0001 C CNN
+	1    1300 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5B069134
+P 1350 5400
+F 0 "#PWR?" H 1350 5250 50  0001 C CNN
+F 1 "+3V3" H 1365 5573 50  0000 C CNN
+F 2 "" H 1350 5400 50  0001 C CNN
+F 3 "" H 1350 5400 50  0001 C CNN
+	1    1350 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5B0693A1
+P 1150 5400
+F 0 "#PWR?" H 1150 5250 50  0001 C CNN
+F 1 "+5V" H 1165 5573 50  0000 C CNN
+F 2 "" H 1150 5400 50  0001 C CNN
+F 3 "" H 1150 5400 50  0001 C CNN
+	1    1150 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5B06944B
+P 1200 4350
+F 0 "#PWR?" H 1200 4200 50  0001 C CNN
+F 1 "VCC" H 1217 4523 50  0000 C CNN
+F 2 "" H 1200 4350 50  0001 C CNN
+F 3 "" H 1200 4350 50  0001 C CNN
+	1    1200 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 5400 1200 4950
+Wire Wire Line
+	1350 5400 1300 5400
+Wire Wire Line
+	1300 5400 1300 4950
+Wire Wire Line
+	1150 5400 1200 5400
+Wire Wire Line
+	1200 4350 1200 4450
+Text GLabel 1400 4950 3    47   BiDi ~ 0
+RX
+Text GLabel 1400 4450 1    47   BiDi ~ 0
+TX
+Text GLabel 1500 4950 3    47   BiDi ~ 0
+SDA
+Text GLabel 1500 4450 1    47   BiDi ~ 0
+SCL
+Text GLabel 1700 4450 1    47   BiDi ~ 0
+SCK
+Text GLabel 1600 4450 1    47   BiDi ~ 0
+MOSI
+Text GLabel 1600 4950 3    47   BiDi ~ 0
+MISO
+Text GLabel 3200 4600 0    47   BiDi ~ 0
+N24_CS
+Text GLabel 3200 4500 0    47   BiDi ~ 0
+N24_CE
+Text GLabel 1800 4450 1    47   BiDi ~ 0
+A0
+Text GLabel 1800 4950 3    47   BiDi ~ 0
+A1
+Text GLabel 1900 4450 1    47   BiDi ~ 0
+A2
+Text GLabel 1900 4950 3    47   BiDi ~ 0
+A3
+Text GLabel 2400 4450 1    47   BiDi ~ 0
+P09
+Text GLabel 7150 2400 2    60   BiDi ~ 0
+A1
+Text GLabel 7150 2500 2    60   BiDi ~ 0
+A2
+Text GLabel 7150 2600 2    60   BiDi ~ 0
+A3
+Text GLabel 3200 4600 2    47   BiDi ~ 0
+CS
+Text GLabel 1700 4950 3    47   BiDi ~ 0
+CS
+Text GLabel 7150 1000 2    60   BiDi ~ 0
+P03
+Text GLabel 7150 1100 2    60   BiDi ~ 0
+P04
+Text GLabel 7150 1200 2    60   BiDi ~ 0
+P05
+Text GLabel 7150 1300 2    60   BiDi ~ 0
+P06
+Text GLabel 7150 1600 2    60   BiDi ~ 0
+P09
+Text GLabel 7150 1700 2    60   BiDi ~ 0
+P10
+Text GLabel 7150 900  2    60   BiDi ~ 0
+P02
+Text GLabel 3200 4500 2    47   BiDi ~ 0
+P07
+Text GLabel 2900 3800 2    47   BiDi ~ 0
+P02
+Text GLabel 2900 3900 2    47   BiDi ~ 0
+P03
+Text GLabel 2900 3800 0    47   BiDi ~ 0
+GPIO0
+Text GLabel 2900 3900 0    47   BiDi ~ 0
+GPIO2
+$Comp
+L power:GND #PWR?
+U 1 1 5B199E3F
+P 2000 4950
+F 0 "#PWR?" H 2000 4700 50  0001 C CNN
+F 1 "GND" H 2005 4777 50  0000 C CNN
+F 2 "" H 2000 4950 50  0001 C CNN
+F 3 "" H 2000 4950 50  0001 C CNN
+	1    2000 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B199EA8
+P 1900 4100
+F 0 "#PWR?" H 1900 3850 50  0001 C CNN
+F 1 "GND" H 1905 3927 50  0000 C CNN
+F 2 "" H 1900 4100 50  0001 C CNN
+F 3 "" H 1900 4100 50  0001 C CNN
+	1    1900 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 4100 2000 4100
+Wire Wire Line
+	2000 4100 2000 4450
+$Comp
+L Connector_Generic:Conn_02x14_Odd_Even J?
+U 1 1 5B1A025A
+P 1700 4750
+F 0 "J?" V 1796 3962 50  0000 R CNN
+F 1 "Conn_02x14_Odd_Even" V 1705 3962 50  0000 R CNN
+F 2 "" H 1700 4750 50  0001 C CNN
+F 3 "~" H 1700 4750 50  0001 C CNN
+	1    1700 4750
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
