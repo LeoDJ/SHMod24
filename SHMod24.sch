@@ -1468,4 +1468,77 @@ Wire Wire Line
 	3250 4500 3200 4500
 Wire Wire Line
 	3250 4600 3200 4600
+Connection ~ 2050 1700
+Wire Wire Line
+	2050 1350 2000 1350
+Wire Wire Line
+	2050 1350 2050 1700
+$Comp
+L SHMod24-rescue:Conn_01x01-Connector_Generic J4
+U 1 1 5B0E1196
+P 1800 1350
+F 0 "J4" H 1900 1350 50  0000 C CNN
+F 1 "RESET" H 1750 1450 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1800 1350 50  0001 C CNN
+F 3 "~" H 1800 1350 50  0001 C CNN
+	1    1800 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L SHMod24-rescue:Conn_01x01-Connector_Generic J6
+U 1 1 5B0ED7AC
+P 1800 1150
+F 0 "J6" H 1900 1150 50  0000 C CNN
+F 1 "GND" H 1750 1250 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1800 1150 50  0001 C CNN
+F 3 "~" H 1800 1150 50  0001 C CNN
+	1    1800 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 5B0ED889
+P 2200 1150
+F 0 "#PWR0119" H 2200 900 50  0001 C CNN
+F 1 "GND" H 2205 977 50  0000 C CNN
+F 2 "" H 2200 1150 50  0001 C CNN
+F 3 "" H 2200 1150 50  0001 C CNN
+	1    2200 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1150 2000 1150
+$Comp
+L Mechanical:Mounting_Hole MK3
+U 1 1 5B0F3DA1
+P 7800 6300
+F 0 "MK3" H 7900 6346 50  0000 L CNN
+F 1 "Mounting_Hole" H 7900 6255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7800 6300 50  0001 C CNN
+F 3 "" H 7800 6300 50  0001 C CNN
+	1    7800 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole MK2
+U 1 1 5B0F3E35
+P 7800 6150
+F 0 "MK2" H 7900 6196 50  0000 L CNN
+F 1 "Mounting_Hole" H 7900 6105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7800 6150 50  0001 C CNN
+F 3 "" H 7800 6150 50  0001 C CNN
+	1    7800 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole MK1
+U 1 1 5B0F3EA7
+P 7800 6000
+F 0 "MK1" H 7900 6046 50  0000 L CNN
+F 1 "Mounting_Hole" H 7900 5955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7800 6000 50  0001 C CNN
+F 3 "" H 7800 6000 50  0001 C CNN
+	1    7800 6000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
