@@ -1811,4 +1811,51 @@ Wire Wire Line
 Wire Wire Line
 	6200 5200 6250 5200
 Connection ~ 6250 5200
+Text GLabel 3850 4350 0    47   BiDi ~ 0
+P03
+$Comp
+L LeoDJ-kicad:AO3400A Q6
+U 1 1 5B1DF661
+P 4050 4350
+F 0 "Q6" H 4256 4396 50  0000 L CNN
+F 1 "AO3400A" H 4256 4305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4250 4275 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf" H 4050 4350 50  0001 L CNN
+	1    4050 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4150 3850 4150
+Wire Wire Line
+	3850 4150 3850 4350
+$Comp
+L power:GND #PWR0126
+U 1 1 5B1DF66B
+P 4150 4550
+F 0 "#PWR0126" H 4150 4300 50  0001 C CNN
+F 1 "GND" H 4155 4377 50  0000 C CNN
+F 2 "" H 4150 4550 50  0001 C CNN
+F 3 "" H 4150 4550 50  0001 C CNN
+	1    4150 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 5B1DF671
+P 3850 4500
+F 0 "R20" H 3780 4454 50  0000 R CNN
+F 1 "10k" H 3780 4545 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3780 4500 50  0001 C CNN
+F 3 "~" H 3850 4500 50  0001 C CNN
+	1    3850 4500
+	-1   0    0    1   
+$EndComp
+Connection ~ 3850 4350
+Wire Wire Line
+	3850 4650 4100 4650
+Wire Wire Line
+	4100 4650 4100 4550
+Wire Wire Line
+	4100 4550 4150 4550
+Connection ~ 4150 4550
 $EndSCHEMATC
