@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name SHMod24-rescue)(type Legacy)(uri ${KIPRJMOD}/SHMod24-rescue.lib)(options "")(descr ""))
+  (lib (name LeoDJ-kicad)(type Legacy)(uri ${KIPRJMOD}/lib_includes/leodj-kicad/LeoDJ-kicad.lib)(options "")(descr ""))
 )

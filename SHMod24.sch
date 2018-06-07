@@ -910,9 +910,9 @@ Text GLabel 4100 2300 2    60   BiDi ~ 0
 GPIO15
 Wire Wire Line
 	4100 2300 3850 2300
-Text GLabel 2900 3350 0    60   BiDi ~ 0
+Text GLabel 3000 3550 0    60   BiDi ~ 0
 GPIO15
-Text GLabel 2950 3350 2    60   BiDi ~ 0
+Text GLabel 3050 3550 2    60   BiDi ~ 0
 N24_CS
 Text GLabel 2400 4950 3    47   BiDi ~ 0
 P10
@@ -936,11 +936,11 @@ Text GLabel 2050 2100 0    60   BiDi ~ 0
 GPIO14
 Text GLabel 2050 2000 0    60   BiDi ~ 0
 GPIO16
-Text GLabel 2900 3450 0    60   BiDi ~ 0
+Text GLabel 3000 3800 0    60   BiDi ~ 0
 GPIO13
-Text GLabel 2900 3550 0    60   BiDi ~ 0
+Text GLabel 3000 3900 0    60   BiDi ~ 0
 GPIO12
-Text GLabel 2900 3650 0    60   BiDi ~ 0
+Text GLabel 3000 4000 0    60   BiDi ~ 0
 GPIO14
 Text GLabel 2050 1800 0    60   BiDi ~ 0
 ADC
@@ -997,15 +997,15 @@ Wire Wire Line
 	650  2500 650  2550
 Wire Wire Line
 	1050 2500 1100 2500
-Text GLabel 2950 3450 2    60   BiDi ~ 0
+Text GLabel 3050 3800 2    60   BiDi ~ 0
 MOSI
-Text GLabel 2950 3550 2    60   BiDi ~ 0
+Text GLabel 3050 3900 2    60   BiDi ~ 0
 MISO
-Text GLabel 2950 3650 2    60   BiDi ~ 0
+Text GLabel 3050 4000 2    60   BiDi ~ 0
 SCK
-Text GLabel 2950 3250 2    60   BiDi ~ 0
+Text GLabel 3050 3450 2    60   BiDi ~ 0
 N24_CE
-Text GLabel 2900 3250 0    60   BiDi ~ 0
+Text GLabel 3000 3450 0    60   BiDi ~ 0
 GPIO16
 Wire Wire Line
 	5200 3000 5200 3200
@@ -1365,10 +1365,6 @@ Text GLabel 1600 4450 1    47   BiDi ~ 0
 MOSI
 Text GLabel 1600 4950 3    47   BiDi ~ 0
 MISO
-Text GLabel 3200 4600 0    47   BiDi ~ 0
-N24_CS
-Text GLabel 3200 4500 0    47   BiDi ~ 0
-N24_CE
 Text GLabel 1800 4450 1    47   BiDi ~ 0
 A0
 Text GLabel 1800 4950 3    47   BiDi ~ 0
@@ -1385,7 +1381,7 @@ Text GLabel 7150 2500 2    60   BiDi ~ 0
 A2
 Text GLabel 7150 2600 2    60   BiDi ~ 0
 A3
-Text GLabel 3250 4600 2    47   BiDi ~ 0
+Text GLabel 3000 3650 0    47   BiDi ~ 0
 CS
 Text GLabel 1700 4950 3    47   BiDi ~ 0
 CS
@@ -1403,15 +1399,15 @@ Text GLabel 7150 1700 2    60   BiDi ~ 0
 P10
 Text GLabel 7150 900  2    60   BiDi ~ 0
 P02
-Text GLabel 3250 4500 2    47   BiDi ~ 0
+Text GLabel 3000 3350 0    47   BiDi ~ 0
 P07
-Text GLabel 2950 3800 2    47   BiDi ~ 0
+Text GLabel 3050 4150 2    47   BiDi ~ 0
 P02
-Text GLabel 2950 3900 2    47   BiDi ~ 0
+Text GLabel 3050 4250 2    47   BiDi ~ 0
 P03
-Text GLabel 2900 3800 0    47   BiDi ~ 0
+Text GLabel 3000 4150 0    47   BiDi ~ 0
 GPIO0
-Text GLabel 2900 3900 0    47   BiDi ~ 0
+Text GLabel 3000 4250 0    47   BiDi ~ 0
 GPIO2
 $Comp
 L SHMod24-rescue:GND-power #PWR0117
@@ -1451,23 +1447,17 @@ F 3 "~" H 1700 4750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2950 3250 2900 3250
+	3050 3550 3000 3550
 Wire Wire Line
-	2950 3350 2900 3350
+	3050 3800 3000 3800
 Wire Wire Line
-	2950 3450 2900 3450
+	3050 3900 3000 3900
 Wire Wire Line
-	2950 3550 2900 3550
+	3050 4000 3000 4000
 Wire Wire Line
-	2950 3650 2900 3650
+	3050 4150 3000 4150
 Wire Wire Line
-	2950 3800 2900 3800
-Wire Wire Line
-	2950 3900 2900 3900
-Wire Wire Line
-	3250 4500 3200 4500
-Wire Wire Line
-	3250 4600 3200 4600
+	3050 4250 3000 4250
 Connection ~ 2050 1700
 Wire Wire Line
 	2050 1350 2000 1350
@@ -1541,4 +1531,208 @@ F 3 "" H 7800 6000 50  0001 C CNN
 	1    7800 6000
 	1    0    0    -1  
 $EndComp
+$Comp
+L SHMod24-rescue:+3V3 #PWR0120
+U 1 1 5B1B1F90
+P 8300 3050
+F 0 "#PWR0120" H 8300 2900 50  0001 C CNN
+F 1 "+3V3" H 8300 3190 50  0000 C CNN
+F 2 "" H 8300 3050 50  0001 C CNN
+F 3 "" H 8300 3050 50  0001 C CNN
+	1    8300 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 5B1B1EEE
+P 8300 4150
+F 0 "#PWR0121" H 8300 3900 50  0001 C CNN
+F 1 "GND" H 8305 3977 50  0000 C CNN
+F 2 "" H 8300 4150 50  0001 C CNN
+F 3 "" H 8300 4150 50  0001 C CNN
+	1    8300 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 7900 3450 0    60   BiDi ~ 0
+RX
+Text GLabel 7900 3750 0    60   BiDi ~ 0
+TX
+$Comp
+L Interface_UART:MAX3485 U8
+U 1 1 5B1B8DB0
+P 8300 3550
+F 0 "U8" H 8300 4228 50  0000 C CNN
+F 1 "MAX3485" H 8300 4137 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8300 2850 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX3483-MAX3491.pdf" H 8300 3600 50  0001 C CNN
+	1    8300 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 3650 7900 3600
+$Comp
+L Device:R R15
+U 1 1 5B1C0728
+P 8850 3600
+F 0 "R15" H 8920 3646 50  0000 L CNN
+F 1 "120" H 8920 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8780 3600 50  0001 C CNN
+F 3 "~" H 8850 3600 50  0001 C CNN
+	1    8850 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 3450 8850 3450
+Connection ~ 8850 3450
+Wire Wire Line
+	8700 3750 8850 3750
+Connection ~ 8850 3750
+Text GLabel 7850 3600 0    47   BiDi ~ 0
+P03
+Wire Wire Line
+	7900 3600 7850 3600
+Connection ~ 7900 3600
+Wire Wire Line
+	7900 3600 7900 3550
+$Comp
+L SHMod24-rescue:Screw_Terminal_01x02 J9
+U 1 1 5B1E0927
+P 9350 3550
+F 0 "J9" H 9430 3542 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 9430 3451 50  0000 L CNN
+F 2 "LeoDJ-kicad:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal_fixed" H 9350 3550 50  0001 C CNN
+F 3 "" H 9350 3550 50  0001 C CNN
+	1    9350 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 3750 9150 3650
+Wire Wire Line
+	8850 3750 9150 3750
+Wire Wire Line
+	9150 3550 9150 3450
+Wire Wire Line
+	8850 3450 9150 3450
+Wire Wire Line
+	3050 3450 3000 3450
+Wire Wire Line
+	3000 3650 3050 3650
+Wire Wire Line
+	3050 3650 3050 3550
+Wire Wire Line
+	3000 3350 3050 3350
+Wire Wire Line
+	3050 3350 3050 3450
+$Comp
+L LeoDJ-kicad:AO3400A Q2
+U 1 1 5B19C897
+P 5050 4350
+F 0 "Q2" H 5256 4396 50  0000 L CNN
+F 1 "AO3400A" H 5256 4305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5250 4275 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf" H 5050 4350 50  0001 L CNN
+	1    5050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LeoDJ-kicad:AO3400A Q4
+U 1 1 5B19C927
+P 6150 4350
+F 0 "Q4" H 6356 4396 50  0000 L CNN
+F 1 "AO3400A" H 6356 4305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6350 4275 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf" H 6150 4350 50  0001 L CNN
+	1    6150 4350
+	1    0    0    -1  
+$EndComp
+Text GLabel 4850 4350 0    47   BiDi ~ 0
+P06
+$Comp
+L LeoDJ-kicad:AO3400A Q3
+U 1 1 5B1A3955
+P 5050 5000
+F 0 "Q3" H 5256 5046 50  0000 L CNN
+F 1 "AO3400A" H 5256 4955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5250 4925 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf" H 5050 5000 50  0001 L CNN
+	1    5050 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LeoDJ-kicad:AO3400A Q5
+U 1 1 5B1A39E5
+P 6150 5000
+F 0 "Q5" H 6356 5046 50  0000 L CNN
+F 1 "AO3400A" H 6356 4955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6350 4925 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf" H 6150 5000 50  0001 L CNN
+	1    6150 5000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4850 5000 0    47   BiDi ~ 0
+P09
+Text GLabel 5950 5000 0    47   BiDi ~ 0
+P10
+Wire Wire Line
+	5150 4150 4850 4150
+Wire Wire Line
+	4850 4150 4850 4350
+Wire Wire Line
+	5150 4800 4850 4800
+Wire Wire Line
+	4850 4800 4850 5000
+Wire Wire Line
+	6250 4800 5950 4800
+Wire Wire Line
+	5950 4800 5950 5000
+Wire Wire Line
+	6250 4150 5950 4150
+Wire Wire Line
+	5950 4150 5950 4350
+$Comp
+L power:GND #PWR0122
+U 1 1 5B1BEC56
+P 5150 4550
+F 0 "#PWR0122" H 5150 4300 50  0001 C CNN
+F 1 "GND" H 5155 4377 50  0000 C CNN
+F 2 "" H 5150 4550 50  0001 C CNN
+F 3 "" H 5150 4550 50  0001 C CNN
+	1    5150 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 5B1BECD4
+P 6250 4550
+F 0 "#PWR0123" H 6250 4300 50  0001 C CNN
+F 1 "GND" H 6255 4377 50  0000 C CNN
+F 2 "" H 6250 4550 50  0001 C CNN
+F 3 "" H 6250 4550 50  0001 C CNN
+	1    6250 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 5B1BED4B
+P 6250 5200
+F 0 "#PWR0124" H 6250 4950 50  0001 C CNN
+F 1 "GND" H 6255 5027 50  0000 C CNN
+F 2 "" H 6250 5200 50  0001 C CNN
+F 3 "" H 6250 5200 50  0001 C CNN
+	1    6250 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 5B1BEDC2
+P 5150 5200
+F 0 "#PWR0125" H 5150 4950 50  0001 C CNN
+F 1 "GND" H 5155 5027 50  0000 C CNN
+F 2 "" H 5150 5200 50  0001 C CNN
+F 3 "" H 5150 5200 50  0001 C CNN
+	1    5150 5200
+	1    0    0    -1  
+$EndComp
+Text GLabel 5950 4350 0    47   BiDi ~ 0
+P05
 $EndSCHEMATC
