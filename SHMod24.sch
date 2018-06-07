@@ -1735,4 +1735,80 @@ F 3 "" H 5150 5200 50  0001 C CNN
 $EndComp
 Text GLabel 5950 4350 0    47   BiDi ~ 0
 P05
+$Comp
+L Device:R R16
+U 1 1 5B1BFF57
+P 4850 4500
+F 0 "R16" H 4780 4454 50  0000 R CNN
+F 1 "10k" H 4780 4545 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4780 4500 50  0001 C CNN
+F 3 "~" H 4850 4500 50  0001 C CNN
+	1    4850 4500
+	-1   0    0    1   
+$EndComp
+Connection ~ 4850 4350
+$Comp
+L Device:R R18
+U 1 1 5B1C00EF
+P 5950 4500
+F 0 "R18" H 5880 4454 50  0000 R CNN
+F 1 "10k" H 5880 4545 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5880 4500 50  0001 C CNN
+F 3 "~" H 5950 4500 50  0001 C CNN
+	1    5950 4500
+	-1   0    0    1   
+$EndComp
+Connection ~ 5950 4350
+$Comp
+L Device:R R19
+U 1 1 5B1C0199
+P 5950 5150
+F 0 "R19" H 5880 5104 50  0000 R CNN
+F 1 "10k" H 5880 5195 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5880 5150 50  0001 C CNN
+F 3 "~" H 5950 5150 50  0001 C CNN
+	1    5950 5150
+	-1   0    0    1   
+$EndComp
+Connection ~ 5950 5000
+$Comp
+L Device:R R17
+U 1 1 5B1C0237
+P 4850 5150
+F 0 "R17" H 4780 5104 50  0000 R CNN
+F 1 "10k" H 4780 5195 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4780 5150 50  0001 C CNN
+F 3 "~" H 4850 5150 50  0001 C CNN
+	1    4850 5150
+	-1   0    0    1   
+$EndComp
+Connection ~ 4850 5000
+Wire Wire Line
+	4850 4650 5100 4650
+Wire Wire Line
+	5100 4650 5100 4550
+Wire Wire Line
+	5100 4550 5150 4550
+Connection ~ 5150 4550
+Wire Wire Line
+	5950 4650 6200 4650
+Wire Wire Line
+	6200 4650 6200 4550
+Wire Wire Line
+	6200 4550 6250 4550
+Connection ~ 6250 4550
+Wire Wire Line
+	4850 5300 5100 5300
+Wire Wire Line
+	5100 5300 5100 5200
+Wire Wire Line
+	5100 5200 5150 5200
+Connection ~ 5150 5200
+Wire Wire Line
+	5950 5300 6200 5300
+Wire Wire Line
+	6200 5300 6200 5200
+Wire Wire Line
+	6200 5200 6250 5200
+Connection ~ 6250 5200
 $EndSCHEMATC
