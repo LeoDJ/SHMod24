@@ -524,12 +524,9 @@ Wire Wire Line
 Wire Wire Line
 	10150 1850 10150 1700
 Wire Wire Line
-	5200 3000 5250 3000
-Wire Wire Line
 	5200 2800 5200 2900
 Wire Wire Line
 	5250 2900 5200 2900
-Connection ~ 5200 3000
 Wire Wire Line
 	5250 2800 5200 2800
 Connection ~ 5200 2900
@@ -1003,10 +1000,6 @@ Text GLabel 3050 3450 2    60   BiDi ~ 0
 N24_CE
 Text GLabel 3000 3450 0    60   BiDi ~ 0
 GPIO16
-Wire Wire Line
-	5200 3000 5200 3200
-Wire Wire Line
-	5200 2900 5200 3000
 Wire Wire Line
 	650  1900 650  2100
 Wire Wire Line
@@ -2010,4 +2003,36 @@ Connection ~ 9650 1000
 Wire Wire Line
 	9400 700  9650 700 
 Connection ~ 9650 700 
+Wire Wire Line
+	5200 2900 5200 3200
+$Comp
+L SHMod24-rescue:Jumper_NO_Small JP4
+U 1 1 5B3023D8
+P 4100 4900
+F 0 "JP4" H 4100 4980 50  0000 C CNN
+F 1 "ESP_MOSFET" H 4110 4840 50  0000 C CNN
+F 2 "LeoDJ-kicad:SOLDER-JUMPER_1-WAY" H 4100 4900 50  0001 C CNN
+F 3 "" H 4100 4900 50  0001 C CNN
+	1    4100 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L SHMod24-rescue:Jumper_NO_Small JP5
+U 1 1 5B3026D2
+P 4100 5150
+F 0 "JP5" H 4100 5230 50  0000 C CNN
+F 1 "ESP_MOSFET" H 4110 5090 50  0000 C CNN
+F 2 "LeoDJ-kicad:SOLDER-JUMPER_1-WAY" H 4100 5150 50  0001 C CNN
+F 3 "" H 4100 5150 50  0001 C CNN
+	1    4100 5150
+	-1   0    0    1   
+$EndComp
+Text GLabel 4200 4900 2    47   BiDi ~ 0
+P05
+Text GLabel 4200 5150 2    47   BiDi ~ 0
+P06
+Text GLabel 4000 4900 0    60   BiDi ~ 0
+GPIO13
+Text GLabel 4000 5150 0    60   BiDi ~ 0
+GPIO12
 $EndSCHEMATC
