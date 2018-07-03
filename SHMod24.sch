@@ -2101,4 +2101,26 @@ F 3 "~" H 9250 6250 50  0001 C CNN
 $EndComp
 Text Notes 9250 6400 0    50   ~ 0
 ^ Logos
+$Comp
+L SHMod24-rescue:Conn_01x01-Connector_Generic J8
+U 1 1 5B3D026A
+P 2200 900
+F 0 "J8" H 2300 900 50  0000 C CNN
+F 1 "GND" H 2150 1000 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2200 900 50  0001 C CNN
+F 3 "~" H 2200 900 50  0001 C CNN
+	1    2200 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0133
+U 1 1 5B3D04C5
+P 2400 900
+F 0 "#PWR0133" H 2400 650 50  0001 C CNN
+F 1 "GND" H 2405 727 50  0000 C CNN
+F 2 "" H 2400 900 50  0001 C CNN
+F 3 "" H 2400 900 50  0001 C CNN
+	1    2400 900 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
