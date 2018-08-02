@@ -8,12 +8,15 @@ This PCB is a universal microcontroller board with many optionally placable comp
 ## Features
 - Choice of ATMega328 (Arduino Pro Mini) or ESP8266 (ESP12-F) as the µC
 - NRF24L01+ SMD with power filtering
-- 6-30V input
+- 6-30V input with buck converter
 - Lithium battery support with charging and protection circuit
+- 3.3V supply and logic
+- Some MOSFET capable outputs
+- RS485 Transceiver
 
-| []()                 | []()                  |
-| -------------------- | --------------------- |
 | ![](doc/3d_back.png) | ![](doc/3d_front.png) |
+| -------------------- | --------------------- |
+| []()                 | []()                  |
 
 ## Pinout
 The pinout of the 28 pin header is listed here:
@@ -40,7 +43,7 @@ The pinout of the 28 pin header is listed here:
 ## BOM
 There are multiple different module groups that can be populated.
 
-For now, the temporary BOM can be found [here](https://docs.google.com/spreadsheets/d/1iiKxV4PersgIiQVDc-0L7qx-AuePIFJ2Z4iP8jHeFN8). Information about the different module groups will follow.
+For now, the temporary BOM can be found [here](https://docs.google.com/spreadsheets/d/1iiKxV4PersgIiQVDc-0L7qx-AuePIFJ2Z4iP8jHeFN8). **Information about the different module groups will follow.**
 
 ## Project installation
 - Make sure to run `git clone` with `--recurse-submodules` to include the necessary libraries too.
