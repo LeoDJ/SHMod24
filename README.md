@@ -15,14 +15,14 @@ This PCB is a universal microcontroller board with many optionally placable comp
 - RS485 Transceiver
 
 | ![](doc/3d_back.png) | ![](doc/3d_front.png) |
-| -------------------- | --------------------- |
+|:---------------------|:----------------------|
 | []()                 | []()                  |
 
 ## Pinout
 The pinout of the 28 pin header is listed here:
 
 | ESP8266                  | Arduino | Function | Pin    | Pin    | Function  | Arduino | ESP8266                  |
-| :----------------------- | :------ | :------- | :----- | :----- | :-------- | :------ | :----------------------- |
+|:-------------------------|:--------|:---------|:-------|:-------|:----------|:--------|:-------------------------|
 |                          |         | GND      | **1**  | **2**  | GND       |         |                          |
 |                          |         | 5V       | **3**  | **4**  | VCC       |         |                          |
 |                          |         | 3.3V     | **5**  | **6**  | 3.3V      |         |                          |
@@ -43,7 +43,51 @@ The pinout of the 28 pin header is listed here:
 ## BOM
 There are multiple different module groups that can be populated.
 
-For now, the temporary BOM can be found [here](https://docs.google.com/spreadsheets/d/1iiKxV4PersgIiQVDc-0L7qx-AuePIFJ2Z4iP8jHeFN8). **Information about the different module groups will follow.**
+ **Information about what to watch out for for the different module groups will follow.**
+
+ In the table is listed, which components to populate for a given module:
+
+| Module                   | Reference            | Part                              |
+|:-------------------------|:---------------------|:----------------------------------|
+| **ESP8266**              | U1                   | ESP8266 12F                       |
+|                          | R1, R2, R3, R11, R24 | 10k                               |
+| ESP8266 ADC              | R4                   | 220k                              |
+|                          | R5                   | 100k                              |
+|                          |                      |                                   |
+| **Arduino**              | IC1                  | Arduino Pro Mini                  |
+|                          |                      |                                   |
+| **NRF radio**            | U2 or U7             | NRF24L01+ SMD                     |
+|                          | C11                  | 100nF                             |
+|                          | (C10)                | 10µF                              |
+|                          |                      |                                   |
+| **3.3V regulator**       | U3                   | AP2112K                           |
+|                          | C1, C2               | 1µF                               |
+|                          |                      |                                   |
+| **Buck regulator**       | U6                   | LMR14010A                         |
+|                          | R9                   | 56k                               |
+|                          | R10                  | 10k                               |
+|                          | C8                   | 2.2µF 50V                         |
+|                          | C8                   | 22µF                              |
+|                          | D1                   | Schottky 40V SMA                  |
+|                          | L1                   | 22µH                              |
+|                          | C6                   | 100n                              |
+|                          | (C9)                 | 100µF                             |
+|                          |                      |                                   |
+| **LiPo charger**         | U4                   | TP4056                            |
+|                          | R6                   | 2k2                               |
+|                          | C5                   | 100nF                             |
+|                          | R14                  | 1k                                |
+|                          | D2                   | 0805 SMD LED (charging indicator) |
+|                          |                      |                                   |
+| **LiPo protection**      | U5                   | DW01A                             |
+|                          | Q1                   | FS8205A                           |
+|                          | R7                   | 100                               |
+|                          | R8                   | 1k                                |
+|                          | C3                   | 100n                              |
+|                          |                      |                                   |
+| **I²C pullup resistors** | R12, R13             | 10k                               |
+|                          |                      |                                   |
+| **RS485 Transceiver**    | U8                   | MAX3485                           |
 
 ## Project installation
 - Make sure to run `git clone` with `--recurse-submodules` to include the necessary libraries too.
