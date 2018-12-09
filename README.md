@@ -40,7 +40,7 @@ The pinout of the 28 pin header is listed here:
 
 *) GPIO can be connected to this pin by bridging the mentioned jumper
 
-**ATTENTION:** When the MAX3485 is mounted the Arduino doesn't want to be programmed most of the time. So make sure to pull pin P3 either to GND or to 3.3V, it doesn't like floating.
+**ATTENTION:** When the MAX3485 is mounted the Arduino doesn't want to be programmed most of the time. So make sure to pull pin P3 either to 3.3V, it doesn't like floating.
 ## BOM
 There are multiple different module groups that can be populated.
 
